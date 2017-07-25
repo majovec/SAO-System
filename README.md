@@ -3,7 +3,7 @@ The pocketmine plugin of Sword Art Online(SAO)
 
 |Things to do: | Start Date: | End Date: | Percentage finished |
 | :---: | :---: | :---: | :---:|
-|Login System | 23/7/2017 | 23/7/2017 | 100% |
+|Login System | 23/7/2017 | NA | 10% |
 |Exp System | 23/7/2017 | NA | 10% |
 |Unplacable blocks | 23/7/2017 | 23/7/2017 | 100% |
 |Unbreakable blocks | 23/7/2017 | 23/7/2017 | 100% |
@@ -11,7 +11,7 @@ The pocketmine plugin of Sword Art Online(SAO)
 |Detection skills |NA | NA | 0% |
 |Hiding skills | NA | NA | 0% |
 |Healing | NA | NA | 0% |
-|Insta-Ban at death | NA | NA | 0% |
+|Insta-Ban at death | 25/7/2017 | 25/7/2017 | 100% |
 |Fighting skills | NA | NA | 0% |
 |Safe and PVP area | NA | NA | 0% |
 |Teleportation crystals(Not-Confirmed) | NA | NA | 0% |
