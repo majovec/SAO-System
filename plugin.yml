@@ -1,13 +1,13 @@
 name: SAO-MCPE
 version: 1.0
-main: NetherTechnology\SAO-System\Main
+main: NetherTechnology\SAO\Main
 author: NetherTechnology
 api: 3.0.0
 
 commands:
    sao:
         usage: /sao <help | commands>
-		description: SAO-System Main Command
+	description: SAO-System Main Command
    lang:
         usage: /lang <en>
-		description: Choose the Lang
+	description: Choose the Lang
