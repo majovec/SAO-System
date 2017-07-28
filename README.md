@@ -5,6 +5,7 @@ The pocketmine plugin of Sword Art Online(SAO)
 | :---: | :---: | :---: | :---:|
 |Login System | 23/7/2017 | NA | 0% |
 |Exp System | 23/7/2017 | NA | 20% |
+|Team System | 28/7/2017 | NA | 50% |
 |Unplacable blocks | 23/7/2017 | 23/7/2017 | 100% |
 |Unbreakable blocks | 23/7/2017 | 23/7/2017 | 100% |
 |Love&Mary System | 23/7/2017 | NA | 70% |
