@@ -7,7 +7,7 @@ The pocketmine plugin of Sword Art Online(SAO)
 |Exp System | 23/7/2017 | NA | 90% |
 |Team System | 28/7/2017 | NA | 70% |
 |Economy | 28/7/2017 | 29/7/2017 | 100% |
-|Clan | 15/8/2017 | NA | 10% |
+|Clan | 15/8/2017 | NA | 30% |
 |Unplacable blocks | 23/7/2017 | 23/7/2017 | 100% |
 |Unbreakable blocks | 23/7/2017 | 23/7/2017 | 100% |
 |Love&Mary System | 23/7/2017 | NA | 70% |
@@ -15,9 +15,8 @@ The pocketmine plugin of Sword Art Online(SAO)
 |Healing | 28/7/2017 | 28/7/2017 | 100% |
 |Insta-Ban at death | 25/7/2017 | 25/7/2017 | 100% |
 |Fighting skills | 29/7/2017 | NA | 5% |
-|Safe and PVP area | 15/7/2017 | 17/7/2017 | 100% |
-|Teleportation crystals(Not-Confirmed) | NA | NA | 0% |
-|Bosses(Not-Confirmed) | NA | NA | 0% |
-|Custom Map(Not-Confirmed) | NA | NA | 0% |
+|Safe and PVP World | 15/7/2017 | 17/7/2017 | 100% |
+|Lobby Crystal | NA | NA | 0% |
+|Bosses | NA | NA | 0% |
 |Other | NA | NA | 0% |
 |Bug Test | NA | NA | 0% |
