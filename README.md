@@ -3,7 +3,6 @@ The pocketmine plugin of Sword Art Online(SAO)
 
 |Things to do: | Start Date: | End Date: | Percentage finished |
 | :---: | :---: | :---: | :---:|
-|Login System | 27/8/2017 | NA | 1% |
 |Exp System | 23/7/2017 | NA | 90% |
 |Team System | 28/7/2017 | NA | 70% |
 |Economy | 28/7/2017 | 29/7/2017 | 100% |
