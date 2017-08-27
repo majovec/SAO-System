@@ -18,5 +18,6 @@ The pocketmine plugin of Sword Art Online(SAO)
 |Safe and PVP World | 15/7/2017 | 17/7/2017 | 100% |
 |Lobby Crystal | NA | NA | 0% |
 |Bosses | NA | NA | 0% |
+|API | 27/8/2017 | NA | 50% |
 |Other | NA | NA | 0% |
 |Bug Test | NA | NA | 0% |
