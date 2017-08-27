@@ -474,18 +474,70 @@ class Main extends PluginBase explements Listener {
 			}
 		}else{
 			if($id == 351) {
-			    if($damage == 0) {
-			        $event->setDamage(10);
-				$damager->sendMessage("You use skills: 1");
-			    }
-			    elseif($damage == 1) {
-			        $event->setDamage(5);
-				$damager->sendMessage("You use skills: 2");
-			    }
-			    elseif($damage == 2) {
-				$bdamager->setHealth($bdamager->getHealth() + 2);
-			        $damager->sendMessage("You use skills: ReFresh");
-				$event->setCancelled();
+				if($dmaage = 0) {
+					$event->setDamage(10);
+					$damager->sendMessage("You use skills");
+				}
+				elseif($damage == 1) {
+					$event->setDamage(5);
+					$damager->sendMessage("You use skills");
+				}
+				elseif($damage == 2) {
+					$event->setDamage(5);
+					$damager->sendMessage("You use skills");
+				}
+				elseif($damage == 3) {
+					$event->setDamage(5);
+					$damager->sendMessage("You use skills");
+				}
+				elseif($damage == 4) {
+					$event->setDamage(5);
+					$damager->sendMessage("You use skills");
+				}
+				elseif($damage == 5) {
+					$event->setDamage(5);
+					$damager->sendMessage("You use skills");
+				}
+				elseif($damage == 6) {
+					$event->setDamage(5);
+					$damager->sendMessage("You use skills");
+				}
+				elseif($damage == 7) {
+					$event->setDamage(5);
+					$damager->sendMessage("You use skills");
+				}
+				elseif($damage == 8) {
+					$event->setDamage(5);
+					$damager->sendMessage("You use skills");
+				}
+				elseif($damage == 9) {
+					$event->setDamage(5);
+					$damager->sendMessage("You use skills");
+				}
+				elseif($damage == 10) {
+					$event->setDamage(5);
+					$damager->sendMessage("You use skills");
+				}
+				elseif($damage == 11) {
+					$event->setDamage(5);
+					$damager->sendMessage("You use skills");
+				}
+				elseif($damage == 12) {
+					$event->setDamage(5);
+					$damager->sendMessage("You use skills");
+				}
+				elseif($damage == 13) {
+					$event->setDamage(5);
+					$damager->sendMessage("You use skills");
+				}
+				elseif($damage == 14) {
+					$event->setDamage(5);
+					$damager->sendMessage("You use skills");
+				}
+				elseif($damage == 15) {
+					$event->setDamage(5);
+					$damager->sendMessage("You use skills");
+				}
 			    }
 			}
 		}
