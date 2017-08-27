@@ -396,6 +396,7 @@ class Main extends PluginBase explements Listener {
 			return 0;
 		}
 	}
+//API[1]
 	public function onGetPlayerConfig($name) {
 		$config = new Config($this->getDataFolder() . "\\players\\" . strtolower($name) . ".yml", Config::YAML, array(
 		    "level" => 1,
@@ -411,6 +412,7 @@ class Main extends PluginBase explements Listener {
 		));
 		return $config;
 	}
+//API[2]
 	public function onGetClanConfig($name) {
 		$config = new Config($this->getDataFolder() . "\\clans\\" . strtolower($name) . ".yml", Config::YAML, array(
 		    "name" => $name,
@@ -420,6 +422,7 @@ class Main extends PluginBase explements Listener {
 			"nowp" => 1
 		));
 	}
+//API[3]
 	public function AddExp($name, $exp) {
 		$config = $this->getPlayerConfig($name);
 		$xp = $config->get("exp");
@@ -436,6 +439,7 @@ class Main extends PluginBase explements Listener {
 			$config->save();
 		}
 	}
+//API[4]
 	public function levelup($name) {
 		$config = $this->getPlayerConfig($name);
 		$level = $config->get("level");
@@ -541,5 +545,17 @@ class Main extends PluginBase explements Listener {
 			    }
 			}
 		}
+//API[4]
+        public function on ReduceMoney($name $amount) {
+		$config = $this->getPlayerConfig($name);
+		$money = $config->get("money");
+		$config->set("money", [$money - $amount]);
+	}
+//API[5]
+        public function onAddMoney(name $amount) {
+		$config = $this->getPlayerConfig($name);
+		$money = $config->get("money");
+		$config->set("money", [$money + $amount]);
+	}
 	}
 >
