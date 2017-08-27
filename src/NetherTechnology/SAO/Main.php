@@ -473,7 +473,21 @@ class Main extends PluginBase explements Listener {
 				$damager->sendMessage($pvpcfg->get("UnPVPMessage"));
 			}
 		}else{
-			
+			if($id == 351) {
+			    if($damage == 0) {
+			        $event->setDamage(10);
+				$damager->sendMessage("You use skills: 1");
+			    }
+			    elseif($damage == 1) {
+			        $event->setDamage(5);
+				$damager->sendMessage("You use skills: 2");
+			    }
+			    elseif($damage == 2) {
+				$bdamager->setHealth($bdamager->getHealth() + 2);
+			        $damager->sendMessage("You use skills: ReFresh");
+				$event->setCancelled();
+			    }
+			}
 		}
 	}
 >
