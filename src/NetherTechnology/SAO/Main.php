@@ -68,6 +68,52 @@ class Main extends PluginBase explements Listener {
 			$event->setCancelled();
 		}
 	}
+        
+       public function onLogin(PlayerJoinEvent $e){
+	 $p = $e->getPlayer();
+	       $name = $p->getName();
+	       $config = new Config($this->getDataFolder() . "\\players\\" . strtolower($name) . ".yml", Config::YAML);
+	       $cfg = $config;
+	       if ($cfg->get("registered") !== true) {
+		       $cfg->set("registered", false);
+		       $cfg->set("logged", false);
+		       $cfg->save();
+		       $p->sendMessage("§eYou are not registered");
+	       } else {
+		       $cfg->set("logged, false);
+		       $cfg->save();
+		       $p->sendMessage(§ePlease login);
+		       }
+		       }
+		 
+		 public function chat(PlayerChatEvent $e){
+          $p = $e->getPlayer();
+          $name = $p->getName();
+	       $config = new Config($this->getDataFolder() . "\\players\\" . strtolower($name) . ".yml", Config::YAML);
+         $cfg = $config;
+         if ($cfg->get("registered") !== true) {
+         $cfg->set("password", $e->getMessage());
+         $cfg->set("logged", true);
+         $cfg->set("registered", true);
+         $cfg->save();
+         $p->sendMessage("§eYou have been registered enjoy you stay!");
+         $e->setCancelled();
+         } elseif ($cfg->get("logged") == false and $cfg->get("registered") == true) {
+                  if($e->getMessage() == $cfg->get("password")); {
+                   $cfg->set("logged", true);
+                   $cfg->save();
+                   $e->setCancelled();
+                   $p->sendMessage("§aLogged");
+                   
+                  }else{
+                  $cfg->save();
+                  $e->setCancelled();
+                  $p->sendMessage("§cBad password");
+                  
+                  }
+         }
+
+          }
 	
 	public function onDeath(PlayerDeathEvent $event) {
 	    $player = $event->getPlayer();
